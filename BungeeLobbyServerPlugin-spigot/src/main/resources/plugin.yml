@@ -1,0 +1,4 @@
+name: BungeeLobbyServerPlugin
+version: ${project.version}
+main: com.hax.bungeelobbyserverplugin.BungeeLobbyServerPluginSpigot
+api-version: 1.16

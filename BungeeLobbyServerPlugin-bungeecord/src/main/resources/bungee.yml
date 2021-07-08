@@ -1,0 +1,3 @@
+name: BungeeLobbyServerPlugin
+version: ${project.version}
+main: com.hax.bungeelobbyserverplugin.BungeeLobbyServerPluginBungeeCord
