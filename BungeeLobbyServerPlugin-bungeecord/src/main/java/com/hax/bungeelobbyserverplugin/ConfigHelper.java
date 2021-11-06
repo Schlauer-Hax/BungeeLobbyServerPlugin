@@ -16,7 +16,7 @@ public class ConfigHelper {
 
     private static File file;
     private static Configuration bungeeConfig;
-    private static boolean locked; // TODO: This is dumb. Writes are lost when locked
+    private static boolean locked;
 
     static {
         // Plugins are loaded before the config (on first run) so uhhhhh, here we go

@@ -29,6 +29,7 @@ public final class BungeeLobbyServerPluginBungeeCord extends Plugin {
 
         this.portrange = ConfigHelper.getPortRange();
         this.getProxy().getPluginManager().registerListener(this, new PingListener());
+        this.getProxy().getPluginManager().registerListener(this, new XaeroWorldMapListener());
         this.getProxy().getScheduler().schedule(this, () -> {
             int start = Integer.parseInt(portrange.split("-")[0]);
             int end = Integer.parseInt(portrange.split("-")[1]);
